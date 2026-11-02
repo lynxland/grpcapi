@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/lynx-go/grpcapi/policy"
+	"github.com/lynxland/grpcapi/policy"
 	"google.golang.org/grpc"
 )
 

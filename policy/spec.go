@@ -9,7 +9,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/lynx-go/grpcapi/principal"
+	"github.com/lynxland/grpcapi/principal"
 )
 
 // Match 是 Requirement 的值匹配语义。

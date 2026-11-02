@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lynx-go/grpcapi/policy"
+	"github.com/lynxland/grpcapi/policy"
 )
 
 // MatrixOptions 是 RenderMatrix 的渲染选项：列头与每方法行回调由项目定义

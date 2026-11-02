@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lynx-go/grpcapi/interceptor"
-	testvalidatev1 "github.com/lynx-go/grpcapi/interceptor/testdata/gen/testvalidate/v1"
+	"github.com/lynxland/grpcapi/interceptor"
+	testvalidatev1 "github.com/lynxland/grpcapi/interceptor/testdata/gen/testvalidate/v1"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

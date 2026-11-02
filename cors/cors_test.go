@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/lynx-go/grpcapi/cors"
+	"github.com/lynxland/grpcapi/cors"
 )
 
 func echoHandler() http.Handler {

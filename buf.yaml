@@ -3,10 +3,10 @@ deps:
   - buf.build/googleapis/googleapis
   - buf.build/bufbuild/protovalidate
 modules:
-  # proto 是唯一对外发布的模块（BSR：buf.build/lynx-go/grpcapi）。
+  # proto 是唯一对外发布的模块（BSR：buf.build/lynxland/grpcapi）。
   # example/echo/v1 是仅供文档的 workspace 成员，无 name——不发布
   # （buf push proto 只推本模块）。
-  - name: buf.build/lynx-go/grpcapi
+  - name: buf.build/lynxland/grpcapi
     path: proto
   # example 模块：最小接入面活文档，参与 lint。豁免
   # PACKAGE_DIRECTORY_MATCH——模块根即包根（example/echo/v1），buf 要求的

@@ -14,9 +14,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lynx-go/grpcapi/contextx"
-	"github.com/lynx-go/grpcapi/interceptor"
-	"github.com/lynx-go/grpcapi/principal"
+	"github.com/lynxland/grpcapi/contextx"
+	"github.com/lynxland/grpcapi/interceptor"
+	"github.com/lynxland/grpcapi/principal"
 	"google.golang.org/genproto/googleapis/rpc/errdetails"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

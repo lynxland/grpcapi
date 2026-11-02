@@ -8,7 +8,7 @@ import "buf/validate/validate.proto";
 import "google/api/annotations.proto";
 import "grpcapi/v1/policy.proto";
 
-option go_package = "github.com/lynx-go/grpcapi/example/echo/v1;echov1";
+option go_package = "github.com/lynxland/grpcapi/example/echo/v1;echov1";
 
 option (grpcapi.v1.api) = {
   api: "public"

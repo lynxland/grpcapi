@@ -3,8 +3,8 @@ package guard
 import (
 	"testing"
 
-	"github.com/lynx-go/grpcapi/policy"
-	"github.com/lynx-go/grpcapi/surface"
+	"github.com/lynxland/grpcapi/policy"
+	"github.com/lynxland/grpcapi/surface"
 )
 
 func routeTestSet(t *testing.T) *policy.Set {

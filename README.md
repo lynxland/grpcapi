@@ -6,7 +6,7 @@ grpcapi turns the "declare your API in proto, serve it over gRPC and HTTP"
 pattern into a reusable library: policy collection with fail-closed startup
 assertions, authentication and authorization, a standard interceptor chain,
 a gateway assembly kit, and guard test helpers. It belongs to the
-[lynx](https://github.com/lynx-go/lynx) ecosystem but does not depend on it —
+[lynx](https://github.com/lynxland/lynx) ecosystem but does not depend on it —
 the only direct dependencies are the gRPC ecosystem itself (grpc,
 grpc-gateway, protobuf, jwt, protovalidate).
 
@@ -40,7 +40,7 @@ grpc-gateway, protobuf, jwt, protovalidate).
 ## Installation
 
 ```
-go get github.com/lynx-go/grpcapi
+go get github.com/lynxland/grpcapi
 ```
 
 Go 1.26 or newer is required. The proto annotations ship as a separate Buf
@@ -100,8 +100,8 @@ routing; do not maintain a second route table in Go.
 
 ```go
 import (
-    "github.com/lynx-go/grpcapi/policy"
-    "github.com/lynx-go/grpcapi/policy/protopolicy"
+    "github.com/lynxland/grpcapi/policy"
+    "github.com/lynxland/grpcapi/policy/protopolicy"
 )
 
 set, err := policy.Build(ctx,
@@ -157,7 +157,7 @@ go build -o bin/protoc-gen-grpcapi ./cmd/protoc-gen-grpcapi
 plugins:
   - local: bin/protoc-gen-grpcapi
     out: .
-    opt: module=github.com/lynx-go/grpcapi
+    opt: module=github.com/lynxland/grpcapi
 ```
 
 This generates `NewNoteServiceRegistration(impl) server.Registration`.
@@ -281,12 +281,12 @@ policy: { require: [ { kind: "tenant" values: ["acme"] } ] }
 ## Proto distribution
 
 The proto module is published to the Buf Schema Registry:
-`buf.build/lynx-go/grpcapi`. Register it in your project's `buf.yaml`:
+`buf.build/lynxland/grpcapi`. Register it in your project's `buf.yaml`:
 
 ```yaml
 version: v2
 deps:
-  - buf.build/lynx-go/grpcapi
+  - buf.build/lynxland/grpcapi
 ```
 
 Then `import "grpcapi/v1/policy.proto"` in your protos. v3 removed

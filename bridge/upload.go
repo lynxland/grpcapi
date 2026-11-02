@@ -8,7 +8,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/lynx-go/grpcapi/gateway"
+	"github.com/lynxland/grpcapi/gateway"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lynx-go/grpcapi/interceptor"
-	"github.com/lynx-go/grpcapi/policy"
+	"github.com/lynxland/grpcapi/interceptor"
+	"github.com/lynxland/grpcapi/policy"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/health"
 	healthpb "google.golang.org/grpc/health/grpc_health_v1"

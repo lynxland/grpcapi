@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lynx-go/grpcapi/policy"
-	"github.com/lynx-go/grpcapi/surface"
+	"github.com/lynxland/grpcapi/policy"
+	"github.com/lynxland/grpcapi/surface"
 )
 
 // RouteTableOptions 是 AssertRouteTable 的输入。

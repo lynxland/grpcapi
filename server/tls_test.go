@@ -17,9 +17,9 @@ import (
 	"testing"
 	"time"
 
-	echov1 "github.com/lynx-go/grpcapi/example/echo/v1"
-	"github.com/lynx-go/grpcapi/gateway"
-	"github.com/lynx-go/grpcapi/server"
+	echov1 "github.com/lynxland/grpcapi/example/echo/v1"
+	"github.com/lynxland/grpcapi/gateway"
+	"github.com/lynxland/grpcapi/server"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )

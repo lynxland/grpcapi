@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lynx-go/grpcapi/surface"
+	"github.com/lynxland/grpcapi/surface"
 	"google.golang.org/protobuf/reflect/protoreflect"
 )
 

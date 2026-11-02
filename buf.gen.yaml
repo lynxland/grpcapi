@@ -11,13 +11,13 @@ version: v2
 plugins:
   - local: bin/protoc-gen-grpcapi
     out: .
-    opt: module=github.com/lynx-go/grpcapi
+    opt: module=github.com/lynxland/grpcapi
   - remote: buf.build/protocolbuffers/go:v1.36.10
     out: .
-    opt: module=github.com/lynx-go/grpcapi
+    opt: module=github.com/lynxland/grpcapi
   - remote: buf.build/grpc/go:v1.6.0
     out: .
-    opt: module=github.com/lynx-go/grpcapi
+    opt: module=github.com/lynxland/grpcapi
   - remote: buf.build/grpc-ecosystem/gateway:v2.29.0
     out: .
-    opt: module=github.com/lynx-go/grpcapi
+    opt: module=github.com/lynxland/grpcapi

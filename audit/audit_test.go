@@ -5,9 +5,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/lynx-go/grpcapi/audit"
-	"github.com/lynx-go/grpcapi/contextx"
-	"github.com/lynx-go/grpcapi/principal"
+	"github.com/lynxland/grpcapi/audit"
+	"github.com/lynxland/grpcapi/contextx"
+	"github.com/lynxland/grpcapi/principal"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

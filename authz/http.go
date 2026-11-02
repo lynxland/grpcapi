@@ -5,8 +5,8 @@ import (
 	"log/slog"
 	"net/http"
 
-	"github.com/lynx-go/grpcapi/gateway"
-	"github.com/lynx-go/grpcapi/policy"
+	"github.com/lynxland/grpcapi/gateway"
+	"github.com/lynxland/grpcapi/policy"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/lynx-go/grpcapi/surface"
+	"github.com/lynxland/grpcapi/surface"
 )
 
 // ManifestConfig 是策略 manifest 快照配置。

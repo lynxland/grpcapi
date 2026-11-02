@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	grpcapiv1 "github.com/lynx-go/grpcapi/genproto/grpcapi/v1"
-	"github.com/lynx-go/grpcapi/policy"
+	grpcapiv1 "github.com/lynxland/grpcapi/genproto/grpcapi/v1"
+	"github.com/lynxland/grpcapi/policy"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protodesc"
 	"google.golang.org/protobuf/reflect/protoreflect"

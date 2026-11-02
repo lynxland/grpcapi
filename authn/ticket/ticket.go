@@ -14,8 +14,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/lynx-go/grpcapi/authn"
-	"github.com/lynx-go/grpcapi/principal"
+	"github.com/lynxland/grpcapi/authn"
+	"github.com/lynxland/grpcapi/principal"
 )
 
 // Store 兑换票据。实现语义：

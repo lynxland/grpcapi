@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/lynx-go/grpcapi/usage"
+	"github.com/lynxland/grpcapi/usage"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

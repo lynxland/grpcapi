@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lynx-go/grpcapi/contextx"
+	"github.com/lynxland/grpcapi/contextx"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 )

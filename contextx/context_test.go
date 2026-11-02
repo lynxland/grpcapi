@@ -6,7 +6,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/lynx-go/grpcapi/contextx"
+	"github.com/lynxland/grpcapi/contextx"
 )
 
 func TestClientInfoRoundTrip(t *testing.T) {

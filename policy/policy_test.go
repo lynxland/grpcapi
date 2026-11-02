@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	echov1 "github.com/lynx-go/grpcapi/example/echo/v1"
-	"github.com/lynx-go/grpcapi/policy"
+	echov1 "github.com/lynxland/grpcapi/example/echo/v1"
+	"github.com/lynxland/grpcapi/policy"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protodesc"
 	"google.golang.org/protobuf/reflect/protoreflect"

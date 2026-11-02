@@ -33,7 +33,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/lynx-go/grpcapi/policy"
+	"github.com/lynxland/grpcapi/policy"
 	"google.golang.org/protobuf/reflect/protoreflect"
 )
 

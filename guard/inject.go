@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lynx-go/grpcapi/policy"
-	"github.com/lynx-go/grpcapi/surface"
+	"github.com/lynxland/grpcapi/policy"
+	"github.com/lynxland/grpcapi/surface"
 )
 
 // InjectOptions 是 InjectLabels 的配置，字段语义与 MatchOptions 对齐——

@@ -4,7 +4,7 @@
 
 grpcapi 把「proto 声明 API + grpc-gateway 暴露」模式固化为可复用库：策略收集 +
 fail-closed 启动断言、认证/授权、标准拦截器链、gateway 装配件、守卫测试 helper。
-属于 [lynx](https://github.com/lynx-go/lynx) 生态，但不依赖 lynx——直接依赖
+属于 [lynx](https://github.com/lynxland/lynx) 生态，但不依赖 lynx——直接依赖
 只有 gRPC 生态（grpc、grpc-gateway、protobuf、jwt、protovalidate）。
 
 ## 特性
@@ -32,7 +32,7 @@ fail-closed 启动断言、认证/授权、标准拦截器链、gateway 装配�
 ## 安装
 
 ```
-go get github.com/lynx-go/grpcapi
+go get github.com/lynxland/grpcapi
 ```
 
 需要 Go 1.26 及以上。proto 注解以独立 Buf 模块发布，见 [proto 分发](#proto-分发)。
@@ -90,8 +90,8 @@ service NoteService {
 
 ```go
 import (
-    "github.com/lynx-go/grpcapi/policy"
-    "github.com/lynx-go/grpcapi/policy/protopolicy"
+    "github.com/lynxland/grpcapi/policy"
+    "github.com/lynxland/grpcapi/policy/protopolicy"
 )
 
 set, err := policy.Build(ctx,
@@ -145,7 +145,7 @@ go build -o bin/protoc-gen-grpcapi ./cmd/protoc-gen-grpcapi
 plugins:
   - local: bin/protoc-gen-grpcapi
     out: .
-    opt: module=github.com/lynx-go/grpcapi
+    opt: module=github.com/lynxland/grpcapi
 ```
 
 生成 `NewNoteServiceRegistration(impl) server.Registration`。
@@ -259,12 +259,12 @@ policy: { require: [ { kind: "tenant" values: ["acme"] } ] }
 
 ## proto 分发
 
-proto 模块发布 BSR：`buf.build/lynx-go/grpcapi`。项目 `buf.yaml` 登记 deps：
+proto 模块发布 BSR：`buf.build/lynxland/grpcapi`。项目 `buf.yaml` 登记 deps：
 
 ```yaml
 version: v2
 deps:
-  - buf.build/lynx-go/grpcapi
+  - buf.build/lynxland/grpcapi
 ```
 
 proto 里 `import "grpcapi/v1/policy.proto"`。v3 已删除 `authz.proto`：旧注解

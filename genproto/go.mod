@@ -1,4 +1,4 @@
-module github.com/lynx-go/grpcapi/genproto
+module github.com/lynxland/grpcapi/genproto
 
 go 1.25.0
 

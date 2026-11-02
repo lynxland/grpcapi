@@ -183,7 +183,7 @@ const file_testvalidate_v1_echo_proto_rawDesc = "" +
 	"\fEchoResponse\"|\n" +
 	"\rBadCelRequest\x12k\n" +
 	"\x04note\x18\x01 \x01(\tBW\xbaHT\xba\x01Q\n" +
-	"\fnote.bad_cel\x12\x17note must start with ok\x1a(this.startsWith('ok') == bogusFunction()R\x04noteBTZRgithub.com/lynx-go/grpcapi/interceptor/testdata/gen/testvalidate/v1;testvalidatev1b\x06proto3"
+	"\fnote.bad_cel\x12\x17note must start with ok\x1a(this.startsWith('ok') == bogusFunction()R\x04noteBUZSgithub.com/lynxland/grpcapi/interceptor/testdata/gen/testvalidate/v1;testvalidatev1b\x06proto3"
 
 var (
 	file_testvalidate_v1_echo_proto_rawDescOnce sync.Once

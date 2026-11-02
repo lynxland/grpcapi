@@ -3,7 +3,7 @@ package guard
 import (
 	"testing"
 
-	echov1 "github.com/lynx-go/grpcapi/example/echo/v1"
+	echov1 "github.com/lynxland/grpcapi/example/echo/v1"
 )
 
 type echoSDK struct{}

@@ -6,10 +6,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/lynx-go/grpcapi/example/echo/v1"
-	"github.com/lynx-go/grpcapi/policy"
-	"github.com/lynx-go/grpcapi/policy/scope"
-	"github.com/lynx-go/grpcapi/principal"
+	"github.com/lynxland/grpcapi/example/echo/v1"
+	"github.com/lynxland/grpcapi/policy"
+	"github.com/lynxland/grpcapi/policy/scope"
+	"github.com/lynxland/grpcapi/principal"
 )
 
 func TestGrantsInstance(t *testing.T) {

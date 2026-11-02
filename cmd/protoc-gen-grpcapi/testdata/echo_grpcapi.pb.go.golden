@@ -7,7 +7,7 @@ package echov1
 import (
 	context "context"
 	runtime "github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
-	server "github.com/lynx-go/grpcapi/server"
+	server "github.com/lynxland/grpcapi/server"
 	grpc "google.golang.org/grpc"
 )
 

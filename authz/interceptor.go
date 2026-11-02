@@ -4,8 +4,8 @@ import (
 	"context"
 	"log/slog"
 
-	"github.com/lynx-go/grpcapi/policy"
-	"github.com/lynx-go/grpcapi/principal"
+	"github.com/lynxland/grpcapi/policy"
+	"github.com/lynxland/grpcapi/principal"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"

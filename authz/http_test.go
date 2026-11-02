@@ -6,9 +6,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/lynx-go/grpcapi/authz"
-	"github.com/lynx-go/grpcapi/policy"
-	"github.com/lynx-go/grpcapi/principal"
+	"github.com/lynxland/grpcapi/authz"
+	"github.com/lynxland/grpcapi/policy"
+	"github.com/lynxland/grpcapi/principal"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

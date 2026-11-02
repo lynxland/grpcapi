@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"testing"
 
-	echov1 "github.com/lynx-go/grpcapi/example/echo/v1"
-	grpcapiv1 "github.com/lynx-go/grpcapi/genproto/grpcapi/v1"
+	echov1 "github.com/lynxland/grpcapi/example/echo/v1"
+	grpcapiv1 "github.com/lynxland/grpcapi/genproto/grpcapi/v1"
 	"google.golang.org/protobuf/compiler/protogen"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protodesc"
@@ -70,7 +70,7 @@ var stampRE = regexp.MustCompile(`protoc-gen-grpcapi \([^)]*\)`)
 // TestGolden 钉住生成物形态：生成代码入库即活文档，任何输出变化都必须
 // 显式 review（改插件或 protogen 版本时跑 UPDATE_GOLDEN=1 重新落盘）。
 func TestGolden(t *testing.T) {
-	out := runPlugin(t, echov1.File_echo_proto, "module=github.com/lynx-go/grpcapi")
+	out := runPlugin(t, echov1.File_echo_proto, "module=github.com/lynxland/grpcapi")
 	content, ok := out["example/echo/v1/echo_grpcapi.pb.go"]
 	if !ok {
 		t.Fatalf("missing echo_grpcapi.pb.go, got files %v", keys(out))

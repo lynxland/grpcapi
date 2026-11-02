@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/lynx-go/grpcapi/authn/admin"
-	"github.com/lynx-go/grpcapi/principal"
+	"github.com/lynxland/grpcapi/authn/admin"
+	"github.com/lynxland/grpcapi/principal"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

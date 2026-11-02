@@ -7,10 +7,10 @@ import (
 	"log"
 	"math"
 
-	echov1 "github.com/lynx-go/grpcapi/example/echo/v1"
-	"github.com/lynx-go/grpcapi/policy"
-	"github.com/lynx-go/grpcapi/policy/protopolicy"
-	"github.com/lynx-go/grpcapi/server"
+	echov1 "github.com/lynxland/grpcapi/example/echo/v1"
+	"github.com/lynxland/grpcapi/policy"
+	"github.com/lynxland/grpcapi/policy/protopolicy"
+	"github.com/lynxland/grpcapi/server"
 )
 
 func main() {

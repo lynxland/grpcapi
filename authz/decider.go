@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/lynx-go/grpcapi/policy"
+	"github.com/lynxland/grpcapi/policy"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/lynx-go/grpcapi/principal"
+	"github.com/lynxland/grpcapi/principal"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/peer"

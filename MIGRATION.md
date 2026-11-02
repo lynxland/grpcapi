@@ -52,7 +52,7 @@ import (
     "context"
 
     legacypb "github.com/<org>/torchwood/genproto/legacy/grpcapi/v1"
-    "github.com/lynx-go/grpcapi/policy"
+    "github.com/lynxland/grpcapi/policy"
     "google.golang.org/genproto/googleapis/api/annotations"
     "google.golang.org/protobuf/proto"
     "google.golang.org/protobuf/reflect/protoreflect"

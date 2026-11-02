@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/lynx-go/grpcapi/server"
-	"github.com/lynx-go/grpcapi/testkit"
+	"github.com/lynxland/grpcapi/server"
+	"github.com/lynxland/grpcapi/testkit"
 )
 
 func TestNewServerExtraRoute(t *testing.T) {

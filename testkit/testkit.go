@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lynx-go/grpcapi/authn"
-	"github.com/lynx-go/grpcapi/policy"
-	"github.com/lynx-go/grpcapi/principal"
-	"github.com/lynx-go/grpcapi/server"
+	"github.com/lynxland/grpcapi/authn"
+	"github.com/lynxland/grpcapi/policy"
+	"github.com/lynxland/grpcapi/principal"
+	"github.com/lynxland/grpcapi/server"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )

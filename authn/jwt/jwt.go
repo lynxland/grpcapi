@@ -10,8 +10,8 @@ import (
 	"time"
 
 	jwtlib "github.com/golang-jwt/jwt/v5"
-	"github.com/lynx-go/grpcapi/authn"
-	"github.com/lynx-go/grpcapi/principal"
+	"github.com/lynxland/grpcapi/authn"
+	"github.com/lynxland/grpcapi/principal"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

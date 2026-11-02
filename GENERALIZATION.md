@@ -411,7 +411,7 @@ syntax = "proto3";
 package grpcapi.v1;
 import "google/protobuf/descriptor.proto";
 
-option go_package = "github.com/lynx-go/grpcapi/genproto/grpcapi/v1;grpcapiv1";
+option go_package = "github.com/lynxland/grpcapi/genproto/grpcapi/v1;grpcapiv1";
 
 message APISpec {
   string api = 1;              // public / internal / partner；空 = 默认面
@@ -798,7 +798,7 @@ type Provider interface {
 默认：
 
 ```go
-import "github.com/lynx-go/grpcapi/policy/protopolicy"
+import "github.com/lynxland/grpcapi/policy/protopolicy"
 
 policy.Options{
     MaxSchemaVersion: 1, // 全局上限，默认 1；FileSpec 声明更高版本时构建失败

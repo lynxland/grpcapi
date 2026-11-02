@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/lynx-go/grpcapi/csrf"
+	"github.com/lynxland/grpcapi/csrf"
 )
 
 func TestSafeMethodBypasses(t *testing.T) {

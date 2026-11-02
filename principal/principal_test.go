@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/lynx-go/grpcapi/principal"
+	"github.com/lynxland/grpcapi/principal"
 )
 
 func TestContextRoundTrip(t *testing.T) {

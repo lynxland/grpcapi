@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/coder/websocket"
-	"github.com/lynx-go/grpcapi/bridge"
+	"github.com/lynxland/grpcapi/bridge"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

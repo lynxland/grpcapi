@@ -5,8 +5,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/lynx-go/grpcapi/contextx"
-	"github.com/lynx-go/grpcapi/interceptor"
+	"github.com/lynxland/grpcapi/contextx"
+	"github.com/lynxland/grpcapi/interceptor"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/metadata"

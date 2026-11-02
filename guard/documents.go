@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lynx-go/grpcapi/policy"
-	"github.com/lynx-go/grpcapi/surface"
+	"github.com/lynxland/grpcapi/policy"
+	"github.com/lynxland/grpcapi/surface"
 )
 
 // MatchOptions 是 AssertDocuments 的配置。

@@ -16,8 +16,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/lynx-go/grpcapi/policy"
-	"github.com/lynx-go/grpcapi/surface"
+	"github.com/lynxland/grpcapi/policy"
+	"github.com/lynxland/grpcapi/surface"
 	"google.golang.org/protobuf/reflect/protoreflect"
 )
 

@@ -11,7 +11,7 @@ package echov1
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	_ "github.com/lynx-go/grpcapi/genproto/grpcapi/v1"
+	_ "github.com/lynxland/grpcapi/genproto/grpcapi/v1"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
@@ -316,8 +316,8 @@ const file_echo_proto_rawDesc = "" +
 	"\x12\b/v1/echo\x12j\n" +
 	"\x04Ping\x12\x1c.example.echo.v1.PingRequest\x1a\x1d.example.echo.v1.PingResponse\"%\xda\xf0\x19\f\n" +
 	"\x02\x18\x01\x1a\x06public\x82\xd3\xe4\x93\x02\x0f\x12\r/v1/echo:ping\x1a\x14\xd2\xf0\x19\x10\n" +
-	"\x02 \x01\x10\x02\x1a\bend_userBC\xca\xf0\x19\f\n" +
-	"\x06public\x10\x01 \x02Z1github.com/lynx-go/grpcapi/example/echo/v1;echov1b\x06proto3"
+	"\x02 \x01\x10\x02\x1a\bend_userBD\xca\xf0\x19\f\n" +
+	"\x06public\x10\x01 \x02Z2github.com/lynxland/grpcapi/example/echo/v1;echov1b\x06proto3"
 
 var (
 	file_echo_proto_rawDescOnce sync.Once

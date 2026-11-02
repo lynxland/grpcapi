@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lynx-go/grpcapi/policy"
-	"github.com/lynx-go/grpcapi/policy/scope"
-	"github.com/lynx-go/grpcapi/principal"
+	"github.com/lynxland/grpcapi/policy"
+	"github.com/lynxland/grpcapi/policy/scope"
+	"github.com/lynxland/grpcapi/principal"
 )
 
 func TestParse(t *testing.T) {

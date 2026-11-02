@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/lynx-go/grpcapi/gateway"
-	"github.com/lynx-go/grpcapi/principal"
+	"github.com/lynxland/grpcapi/gateway"
+	"github.com/lynxland/grpcapi/principal"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"

@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lynx-go/grpcapi/authn"
-	"github.com/lynx-go/grpcapi/authn/session"
-	"github.com/lynx-go/grpcapi/principal"
+	"github.com/lynxland/grpcapi/authn"
+	"github.com/lynxland/grpcapi/authn/session"
+	"github.com/lynxland/grpcapi/principal"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

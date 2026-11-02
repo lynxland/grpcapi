@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lynx-go/grpcapi/gateway"
+	"github.com/lynxland/grpcapi/gateway"
 	"google.golang.org/genproto/googleapis/rpc/errdetails"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

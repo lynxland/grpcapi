@@ -888,7 +888,7 @@ const file_grpcapi_v1_policy_proto_rawDesc = "" +
 	"\x1cSTREAM_AUTH_MODE_PER_MESSAGE\x10\x02:E\n" +
 	"\x03api\x12\x1c.google.protobuf.FileOptions\x18\x89\x9e\x03 \x01(\v2\x13.grpcapi.v1.APISpecR\x03api:T\n" +
 	"\aservice\x12\x1f.google.protobuf.ServiceOptions\x18\x8a\x9e\x03 \x01(\v2\x17.grpcapi.v1.ServiceSpecR\aservice:P\n" +
-	"\x06method\x12\x1e.google.protobuf.MethodOptions\x18\x8b\x9e\x03 \x01(\v2\x16.grpcapi.v1.MethodSpecR\x06methodB:Z8github.com/lynx-go/grpcapi/genproto/grpcapi/v1;grpcapiv1b\x06proto3"
+	"\x06method\x12\x1e.google.protobuf.MethodOptions\x18\x8b\x9e\x03 \x01(\v2\x16.grpcapi.v1.MethodSpecR\x06methodB;Z9github.com/lynxland/grpcapi/genproto/grpcapi/v1;grpcapiv1b\x06proto3"
 
 var (
 	file_grpcapi_v1_policy_proto_rawDescOnce sync.Once

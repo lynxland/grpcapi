@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/lynx-go/grpcapi/policy"
+	"github.com/lynxland/grpcapi/policy"
 )
 
 // Options 是 scope kind 的配置。

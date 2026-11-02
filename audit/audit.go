@@ -11,9 +11,9 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/lynx-go/grpcapi/contextx"
-	"github.com/lynx-go/grpcapi/interceptor"
-	"github.com/lynx-go/grpcapi/principal"
+	"github.com/lynxland/grpcapi/contextx"
+	"github.com/lynxland/grpcapi/interceptor"
+	"github.com/lynxland/grpcapi/principal"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

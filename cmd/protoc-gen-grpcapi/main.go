@@ -13,7 +13,7 @@ import (
 	"regexp"
 	"runtime/debug"
 
-	grpcapiv1 "github.com/lynx-go/grpcapi/genproto/grpcapi/v1"
+	grpcapiv1 "github.com/lynxland/grpcapi/genproto/grpcapi/v1"
 	"google.golang.org/genproto/googleapis/api/annotations"
 	"google.golang.org/protobuf/compiler/protogen"
 	"google.golang.org/protobuf/proto"
@@ -22,7 +22,7 @@ import (
 )
 
 const (
-	serverPkg  = protogen.GoImportPath("github.com/lynx-go/grpcapi/server")
+	serverPkg  = protogen.GoImportPath("github.com/lynxland/grpcapi/server")
 	grpcPkg    = protogen.GoImportPath("google.golang.org/grpc")
 	runtimePkg = protogen.GoImportPath("github.com/grpc-ecosystem/grpc-gateway/v2/runtime")
 	contextPkg = protogen.GoImportPath("context")

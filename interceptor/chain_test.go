@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lynx-go/grpcapi/interceptor"
+	"github.com/lynxland/grpcapi/interceptor"
 	"google.golang.org/grpc"
 )
 

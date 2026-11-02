@@ -7,7 +7,7 @@ package testvalidate.v1;
 
 import "buf/validate/validate.proto";
 
-option go_package = "github.com/lynx-go/grpcapi/interceptor/testdata/gen/testvalidate/v1;testvalidatev1";
+option go_package = "github.com/lynxland/grpcapi/interceptor/testdata/gen/testvalidate/v1;testvalidatev1";
 
 // EchoRequest 覆盖 string 长度、pattern、int32 范围三类规则违规。
 message EchoRequest {

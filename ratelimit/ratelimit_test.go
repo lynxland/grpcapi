@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lynx-go/grpcapi/principal"
-	"github.com/lynx-go/grpcapi/ratelimit"
+	"github.com/lynxland/grpcapi/principal"
+	"github.com/lynxland/grpcapi/ratelimit"
 	"google.golang.org/genproto/googleapis/rpc/errdetails"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
