@@ -4,6 +4,24 @@
 [README](./README.md)「版本」章节。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)，
 版本号遵循 [SemVer](https://semver.org/lang/zh-CN/)。
 
+## [v0.5.0] — 2026-11-02
+
+### 破坏性变更：模块路径随 GitHub 机构更名迁移（lynx-go → lynxland）
+
+- **Go module**：`github.com/lynx-go/grpcapi` → `github.com/lynxland/grpcapi`；
+  `genproto` 子模块同步迁至 `github.com/lynxland/grpcapi/genproto`（tag
+  `genproto/v0.4.0`）。API 面零变化，迁移为机械替换导入路径（go.mod
+  require 与全部 import）。
+- **BSR**：proto 模块 `buf.build/lynx-go/grpcapi` → `buf.build/lynxland/grpcapi`。
+  下游 `buf.yaml` 的 deps 同步替换后执行 `buf dep update`。
+- **proto `go_package` 随迁**（`github.com/lynxland/grpcapi/genproto/grpcapi/v1;grpcapiv1`）。
+  下游若有 proto 生成物引用本库，需重新 `buf generate`——生成物的 descriptor
+  内嵌 go_package，串长变化会使长度前缀失配，**不可文本替换**。
+- 旧版本（≤ v0.4.0、genproto ≤ v0.3.0）仅能经旧路径解析（其 go.mod 声明的是
+  旧路径）；本版是新路径的首个可拉取版本。
+- example 生成物版本戳归一为 `dev`（插件对非精确 tag 构建的既定归一化），
+  修复入库 tag 戳导致 main 上 CI 生成物零漂移断言失败的问题。
+
 ## [v0.4.0] — 2026-10-25
 
 ### OpenAPI 文档生成（`openapi` 包 + server 免费挂载）
@@ -158,8 +176,10 @@
 - 首个 tag。**不可用**：go.mod 对 `genproto` 的 require 是未发布的
   零值伪版本，外部解析必失败——请从 v0.2.0 起用。
 
-[Unreleased]: https://github.com/lynx-go/grpcapi/compare/v0.3.0...HEAD
-[v0.3.0]: https://github.com/lynx-go/grpcapi/compare/v0.2.1...v0.3.0
-[v0.2.1]: https://github.com/lynx-go/grpcapi/compare/v0.2.0...v0.2.1
-[v0.2.0]: https://github.com/lynx-go/grpcapi/compare/v0.1.0...v0.2.0
-[v0.1.0]: https://github.com/lynx-go/grpcapi/releases/tag/v0.1.0
+[Unreleased]: https://github.com/lynxland/grpcapi/compare/v0.5.0...HEAD
+[v0.5.0]: https://github.com/lynxland/grpcapi/compare/v0.4.0...v0.5.0
+[v0.4.0]: https://github.com/lynxland/grpcapi/compare/v0.3.0...v0.4.0
+[v0.3.0]: https://github.com/lynxland/grpcapi/compare/v0.2.1...v0.3.0
+[v0.2.1]: https://github.com/lynxland/grpcapi/compare/v0.2.0...v0.2.1
+[v0.2.0]: https://github.com/lynxland/grpcapi/compare/v0.1.0...v0.2.0
+[v0.1.0]: https://github.com/lynxland/grpcapi/releases/tag/v0.1.0
